@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "input output";
+}
+
+.input {
+  grid-area: input;
+  margin: 40px;
+}
+
+.output {
+  grid-area: output;
+  margin: 40px;
+}
+
+.personal-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.education-form {
+    display: flex;
+    flex-direction: column;
+}
